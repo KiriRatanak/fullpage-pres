@@ -23,7 +23,7 @@ class App extends React.Component {
           debug /* Debug logging */
           navigation          
           sectionSelector={SECTION_SEL}
-          render={comp => (
+          render={comps => (
             <div>
               <Slide1 SEL={SEL}/>
               <Slide2 SEL={SEL}/>
